@@ -1,0 +1,50 @@
+.container  {
+    
+    background-color: #2BBCBA;
+    margin: 1px solid #2BBCBA;
+    
+}
+
+.navbar-brand   {
+    
+    width: 200px;
+    height: 100%;
+    background-image: url("../img/logo-white.png");
+    background-size: 190px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    
+    background-color: #2BBCBA;
+}
+
+.navbar-default {
+    
+    background-color: #2BBCBA;
+}
+.navbar-fixed-top {
+    
+    background-color: #2BBCBA;
+}
+
+.navbar-toggle  {
+    
+    margin: 0px dashed #2BBCBA;
+    
+}
+
+div {
+    
+    margin: 0px dashed #2BBCBA;
+}
+
+.link  {
+    
+     font-family: 'AvenirLTStd55Roman', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: white;
+}
+

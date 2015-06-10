@@ -1,0 +1,106 @@
+#how   {
+    
+    width: 100%;
+    height: auto;
+    min-height: 2000px;
+    background-color: white;
+    padding-top: 50px;
+    
+}
+
+
+.text-right  {
+    
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin-right: 5%;
+    padding-top: 1px;
+    display: block;
+}
+.text-left  {
+    
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 5%;
+    padding-top: 1px;
+    
+}
+
+.description {
+    text-align: left;
+}
+
+#steps  {
+    
+    width: 60%;
+    max-width: 700px;
+    height: auto;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding-top: 0px; 
+}
+.subtitle   {
+    
+    font-size: 24px;
+    color: #e43e25; 
+    text-align: left;
+    
+}
+
+.division-step  {
+    height: 450px;
+}
+
+
+#picture1   {
+    
+    background-image: url("../img/1.png");  
+    
+}
+
+#picture2   {
+    
+    background-image: url("../img/2.png");  
+    
+}
+#picture3   {
+    
+    background-image: url("../img/3.png");  
+    
+}
+#picture4   {
+    
+    background-image: url("../img/4.png");  
+    
+}
+.picture-left   {
+    
+    width: 50%;
+    height: 400px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+.picture-right   {
+    
+    width: 50%;
+    height: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+

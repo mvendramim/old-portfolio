@@ -1,0 +1,121 @@
+#team   {
+    
+    width: 100%;
+    background-color: #2BBCBA;
+    padding-top: 50px;
+    
+}
+
+#team-container {
+    
+    margin-left: 350px;
+    width: 70%;
+    max-width: 700px;
+}
+
+.member {
+    
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    display: inline-table;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.member > p {
+    
+    width: 180px;
+    float: right;
+    clear: both;
+    
+}
+
+.member-thumb   {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.role    {
+    
+    font-family: 'AvenirLTStd85Heavy',sans-serif;
+    font-size: 20px;
+    margin-bottom:0px;
+}
+
+
+#nicolette  {
+    
+
+    background-image: url("../img/Nicolette.png");
+    background-size: contain;
+}
+
+#tori  {
+    
+
+    background-image: url("../img/Tori2.png");
+    background-size: contain;
+}
+
+#cris  {
+
+    background-image: url("../img/Cris2.png");
+    background-size: contain;
+}
+
+#erica  {
+    
+    background-image: url("../img/Erica2.png");
+    background-size: contain;
+}
+
+#rebecca  {
+    
+    background-image: url("../img/Rebecca2.png");
+    background-size: contain;
+}
+
+
+#lindsay  {
+    
+    background-image: url("../img/Lindsay2.png");
+    background-size: contain;
+}
+
+
+#cayetana  {
+    
+    background-image: url("../img/Cayetana2.png");
+    background-size: contain;
+}
+
+
+#mackenzie  {
+    
+    background-image: url("../img/Mackenzie2.png");
+    background-size: contain;
+}
+
+
+#mayra  {
+    
+    background-image: url("../img/Mayra2.png");
+    background-size: contain;
+}
+
+#made   {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'AvenirLTStd55Roman';
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    background-color: #e43e25;
+}

@@ -1,0 +1,38 @@
+#second-screen   {
+    
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    background-image: url("../img/bg2.jpg");
+    background-size: 2000px;
+    padding-top: 100px;
+    
+}
+
+#about  {
+    
+    width: 45%;
+    height: auto;
+    margin-left: 350px;
+    margin-right: 15%;
+    margin-top: 50px;
+    padding-top: 0px;
+    
+}
+
+.title  {
+    
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #eeca14;
+    text-align: center;
+}
+
+.description-app    {
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    line-height: 40px;
+    
+}
+

@@ -1,0 +1,270 @@
+#fixed  {
+    
+    position: fixed;
+    height: 600px;
+    width: 300px;
+    top: 0px;
+    
+}
+
+.logo   {
+    
+    width: 270px;
+    height: 100px;
+    margin-left: 30px;
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top:1%;
+    z-index: 1;
+    display: none;
+}
+
+.logo-scroll   {
+    
+    display: block;
+}
+
+.logo-white   {
+    
+    background-image: url("../img/logo-white.png");
+}
+
+
+
+.home-nav   {
+    
+    width: 350px;
+    height: 40%;
+    position: absolute;
+    left: 0px;
+    top:300px;
+
+    
+}
+
+
+.item   {
+    
+    width: 250px;
+    height: 25px;
+    margin-top: 20px;
+    background-image: url("../img/detail2.png");
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    list-style: none;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+
+    
+}
+.item.red {
+    background-image: url("../img/detail2red.png");
+    
+}
+.item.red.current {
+    background-image: url("../img/detailred.png");
+}
+
+.item > a {
+    color: white;
+}
+
+.item > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.item > a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.item > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.item > a:focus {
+    color: white;
+    text-decoration: none;
+}
+.item.red > a {
+    color: #e43e25;
+}
+
+.item.red > a:hover {
+    color: #e43e25;
+    text-decoration: none;
+    
+}
+    
+.item.red > a:active {
+    color: #e43e25;
+    text-decoration: none;
+}
+
+    .item.red > a:visited {
+    color: #e43e25;
+    text-decoration: none;
+}
+
+    .item.red > a:focus {
+    color: #e43e25;
+    text-decoration: none;
+}
+    
+    
+
+.current  {
+    
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    background-image: url("../img/detail.png");
+    background-size: contain;
+    background-position: left center;    
+    list-style: none;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+
+.selected-item-red  {
+    
+    background-image: url("../img/detailred.png");
+    
+}
+
+.item-red   {
+    
+    background-image: url("../img/detail2red.png");
+    
+}
+
+
+.nav-text   {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'AvenirLTStd55Roman', sans-serif;
+    text-indent:40px;
+    line-height: 25px;
+    text-transform: uppercase;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+a   {
+    
+    text-decoration: none;
+}
+
+a:hover   {
+    
+     text-decoration: none;
+    
+}
+
+a:visited   {
+    
+     text-decoration: none;
+    
+}
+
+a:focus   {
+    
+     text-decoration: none;
+    
+}
+.nav-text-selected   {
+    
+    color: #e43e25;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+.nav-text:hover   { 
+
+    font-family: 'AvenirLTStd85Heavy',serif;
+   -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+    
+    
+}
+
+#nav  {
+ 
+    float:left;
+}
+
+#right   {
+ 
+    width: 160px;
+    float:left;
+    opacity: 0;
+    color: white;
+    text-decoration: none;
+    -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+}
+
+
+#right:hover   {
+ 
+    width: 160px;
+    float:left;
+    opacity: 100;
+    color: white;
+    text-decoration: none;
+    -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+}
+
+
+.small-item {
+    
+    margin-left: 50px;
+    text-indent: 30px;
+}
+
+#small {
+    
+    width: 600px;
+    
+    z-index: 10000;
+}
+
+
+.logo-small  {
+    
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: fixed;
+    top:1%;
+    z-index: 1000;
+    display: none;
+}
