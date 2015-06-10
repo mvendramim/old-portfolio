@@ -2,270 +2,809 @@
 <html>
 
 <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Exposure</title>
-    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mayra Vendramim's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="" />
-    <meta name="description" content="Exposure is an app to help you better expand your knowledge. You can take a picture
-of text and Exposure will turn the words into text that you can search. Choose to
-search from Google, Serendipomatic, Bing, dictionary.com, Amazon, Google Translate
-and Google Images. If you would like to do an image search, take a picture of anything!
-Exposure will let you search for similar images in Google Images, Bing Images and
-Flickr. If you’re confused about a word you read in your novel, a menu item at a
-restaurant, or even the meaning of a street sign, Exposure is here to help. There are
-endless possibilities. Exposure is a new way of searching, what will you find out?" />
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nav-lateral.css">
-    <link rel="stylesheet" href="css/nav-horizontal.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/how.css">
-    <link rel="stylesheet" href="css/team.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <meta name="keywords" content="Design, designer, graphic designer, student, internship, New Paltz, Curitiba, SUNY, UTFPR, Mayra, Gabriela, Lino, Vendramim, Portfolio" />
+	 <meta name="description" content="Mayra Vendramim's Works and Informations" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery.nav.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-    <link rel="stylesheet" href="./magnific/magnific-popup.css">
-    <script src="./magnific/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.stellar.min.js" type="text/javascript" charset="utf-8"></script>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+    <script src="vendor/jquery.nav.js"></script> 
+    <script src="vendor/carousel.js"></script> 
+
+    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="vendor/animate.css">
+
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
-    <!--bootstrap nav-->
-
-    <header class="navbar navbar-default navbar-fixed-top" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#home" class="navbar-brand"></a>
-            </div>
-            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#home">
-                            <p class="link">home</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#second-screen">
-                            <p class="link">about the app</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#how">
-                            <p class="link">how it works</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#team">
-                            <p class="link">the team</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!--bootstrap nav-->
-
-    <a href="#home"><div class="logo animated"></div></a>
-    <div id="fixed">
 
 
+    <div class="navbar animated">
 
-        <nav class="home-nav">
+        <a href='#home'>
+            <div id="logosmall"></div>
+        </a>
+
+        <div id="item-container">
             <ul id="nav">
-                <li class="item nav-text current">
-                    <a href="#home">home</a>
+
+                <li class="current nav-item">
+                    <a id="fixed-link-home" href="#home">HOME</a>
                 </li>
-                <li class="item nav-text" id="li-second-screen">
-                    <a href="#second-screen">about</a>
+                <li class="nav-item">
+                    <a id="fixed-link-work" href="#work">WORK</a>
                 </li>
-                <li class="item nav-text" id="li-third-screen">
-                    <a href="#how">how it works</a>
-                </li>
-                <li class="item nav-text" id="li-fourth-screen">
-                    <a href="#team">the team</a>
+                <li class="nav-item" id="fixed-li-work">
+                    <a id="fixed-link-about" href="#about">ABOUT</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+
     </div>
-    <div id="home" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;" data-anchor-target="#home">
+
+    <div class="container-home" id="home">
+    <div class="container-body">
+        
 
         <div id="logo-home"></div>
+        <div id="wrapper-home">
+            <div class="wrapper-division-left">
+                <div class="menu-item" id="item-left">
+                    <a href="#work">WORK</a>
+                </div>
+            </div>
+            <div class="wrapper-division-center">
+                </div>
+            <div class="wrapper-division-right">
+                <div class="menu-item" id="item-right">
+                    <a href="#about">ABOUT</a>
+                </div>
+            </div>
+        </div>
+            </div>
+    </div>
 
-        <div id="home-container" class="wow fadeIn" data-wow-duration="1.3s">
-            <p id="headline">What will you find out?</p>
 
-            <div id="buttons-container">
-                <div id="download">
+    <div class="container-body-redimensionable" id="work">
+
+        <div class="content-separator"></div>
+
+
+        <div id="work-container">
+            <div id="filter-menu-container">
+                <a class="filter-button" href="#all" data-toggle="tab">ALL</a>
+                <a class="filter-button" href="#digital" data-toggle="tab">DIGITAL</a>
+                <a class="filter-button" href="#print" data-toggle="tab">PRINT</a>
+                <div style="clear:both"></div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane active fade in work-items-container animated fadeInDown" id="all">
+                    <a class="work-item pet-cupid" data-toggle="tab" href="#pet-cupid"><div class="overlay">Pet Cupid</div></a>
+                    <a class="work-item ipad-magazine" data-toggle="tab" href="#ipad-magazine"><div class="overlay">Ipad Magazine</div></a>
+                    <a class="work-item exposure" data-toggle="tab" data-toggle="tab" href="#traveling-microsite"><div class="overlay">Exposure</div></a>
+                    <a class="work-item the-bakery" data-toggle="tab" data-toggle="tab" href="#the-bakery"><div class="overlay">Restaurant Menu</div></a>
+                    <a class="work-item branding-restaurant" data-toggle="tab" href="#branding-restaurant"><div class="overlay">Mini Manual de Marca</div></a>
+                    <a class="work-item typographic-poster" data-toggle="tab" href="#typographic-poster"><div class="overlay">Poster Tipográfico</div></a>
+                    <a class="work-item bioshock" data-toggle="tab" href="#bioshock"><div class="overlay">Embalagem de DVD</div></a>
+                    <a class="work-item layout-printed-book" data-toggle="tab" href="#layout-printed-book"><div class="overlay">Assassinatos na Rua Morgue e Outras Histórias</div></a>
+
+                </div>
+                <div class="tab-pane fade work-items-container animated fadeInDown" id="digital">
+                    
+                    <a class="work-item pet-cupid" data-toggle="tab" href="#pet-cupid"><div class="overlay">Pet Cupid</div></a>
+                    <a class="work-item ipad-magazine" data-toggle="tab" href="#ipad-magazine"><div class="overlay">Ipad Magazine</div></a>
+                    <a class="work-item exposure" data-toggle="tab" data-toggle="tab" href="#traveling-microsite"><div class="overlay">Exposure</div></a>
+                    <a class="work-item the-bakery" data-toggle="tab" data-toggle="tab" href="#the-bakery"><div class="overlay">Restaurant Menu</div></a>
+                </div>
+                <div class="tab-pane fade work-items-container animated fadeInDown" id="print">
+                    
+                    <a class="work-item branding-restaurant" data-toggle="tab" href="#branding-restaurant"><div class="overlay">Mini Manual de Marca</div></a>
+                    <a class="work-item typographic-poster" data-toggle="tab" href="#typographic-poster"><div class="overlay">Poster Tipográfico</div></a>
+                    <a class="work-item bioshock" data-toggle="tab" href="#bioshock"><div class="overlay">Embalagem de DVD</div></a>
+                    <a class="work-item layout-printed-book" data-toggle="tab" href="#layout-printed-book"><div class="overlay">Assassinatos na Rua Morgue e Outras Histórias</div></a>
                 </div>
 
-                <a class="popup-vimeo" href="https://vimeo.com/95286624">
-                    <div id="play-video"></div>
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="pet-cupid">
+                <div class="work-item-gallery">
+                    <div id="carousel-pet-cupid" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-pet-cupid" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="1"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="2"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="3"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="4"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="5"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="6"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="7"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="8"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="9"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="10"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="11"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="12"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="13"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="14"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="15"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="16"></li>
+                        <li data-target="#carousel-pet-cupid" data-slide-to="17"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/5tjb9Zh.jpg" alt="">
+                        
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="item">
+                        <img src="http://i.imgur.com/TXwuOIC.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/5l87Y10.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/VZHlKUm.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/pTwADmm.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                         <div class="item">
+                        <img src="http://i.imgur.com/8QxGhuJ.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                        <img src="http://i.imgur.com/GVR56zL.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/pwxLAUH.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="item">
+                        <img src="http://i.imgur.com/hE77rvg.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/RJT4cdW.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                        <img src="http://i.imgur.com/jF8vziV.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                        <img src="http://i.imgur.com/orambSU.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                        <img src="http://i.imgur.com/Ch6N7vc.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                        <img src="http://i.imgur.com/n7WMUwn.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                            
+                            <!--http://imgur.com/RJWzyxl
+http://imgur.com/pwxLAUH
+http://imgur.com/GVR56zL
+http://imgur.com/Ch6N7vc
+http://imgur.com/orambSU
+http://imgur.com/jF8vziV
+http://imgur.com/RJT4cdW
+http://imgur.com/n7WMUwn
+http://imgur.com/hE77rvg-->
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-pet-cupid" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
-
+                <a class="right carousel-control" href="#carousel-pet-cupid" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
-        </div>
-
-
-    </div>
-
-    <div id="second-screen" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;" data-anchor-target=#second-screen>
-        <div id="container-about">
-
-            <div id="about">
-                <p class="title">About the App</p>
-                <p class="description-app">Exposure is an app to help you better expand your knowledge. You can take a picture of text and Exposure will turn the words into text that you can search. Choose to search from Google, Serendipomatic, Bing, dictionary.com, Amazon, Google Translate and Google Images. If you would like to do an image search, take a picture of anything! Exposure will let you search for similar images in Google Images, Bing Images and Flickr. If you’re confused about a word you read in your novel, a menu item at a restaurant, or even the meaning of a street sign, Exposure is here to help. There are endless possibilities. Exposure is a new way of searching, what will you find out?</p>
-            </div>
-        </div>
-    </div>
-    <div id="how">
-        <div id="steps">
-            <p class="title">How it Works</p>
-
-            <div class="division-step">
-
-                <div id="picture1" class="picture-left wow bounceInLeft fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1.3s">
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Pet Cupid</h1>
+                    <p>Pet Cupid é um projeto ainda em desenvolvimento que foi iniciado na aula de Graphic Design Studio II na SCAD. O objetivo desse projeto é estimular a adoção de animais, criando uma rede social similar à sites de relacionamento, cuja proposta é encontrar o seu par animal perfeito. </p>
+<p>Nesse serviço, abrigos e protetores cadastrariam seus animais disponíveis para adoção e usuários cadastrariam suas preferências. Assim que detectada a compatibilidade, o usuário poderia ver o perfil do animal e decidir se quer adotar ou não. É uma forma mais descomplicada e despojada para os abrigos e protetores se comunicarem com possíveis pais adotivos.   </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
                 </div>
-
-                <div id="first" class="text-right">
-                    <p class="subtitle">1. Take a picture</p>
-                    <p class="description">When you see words that you would like to look up, take a picture of the text and Exposure will convert the picture into text for you. If you would like to search an image, just choose image search .</p>
-                </div>
-            </div>
-            
-             <div class="division-step">
-                 
-                 <div id="picture2" class="picture-right wow bounceInRight fadeInRight" data-wow-delay="0.6s" data-wow-duration="1.3s">
-                </div>
-
-                <div id="first" class="text-left">
-                    <p class="subtitle">2. Edit the text</p>
-                    <p class="description">When you see words that you would like to look up, take a picture of the text and Exposure will convert the picture into text for you. If you would like to search an image, just choose image search .</p>
-                </div>
-                 
-                 
-            </div>
-            
-            <div class="division-step">
-
-                <div id="picture3" class="picture-left wow bounceInLeft fadeInLeft" data-wow-delay="0.6s" data-wow-duration="1.3s">
-                </div>
-
-                <div id="first" class="text-right">
-                    <p class="subtitle">3. Search</p>
-                    <p class="description">Choose to search your text in Google, Serendipomatic, Bing, dictionary.com, thesaurus.com, Google Translate or Google Images.</p>
-                </div>
-            </div>
-
-            <div class="division-step">
                 
-                <div id="picture4" class="picture-right wow bounceInRight fadeInRight" data-wow-delay="0.6s" data-wow-duration="1.3s">
+                
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="ipad-magazine">
+                <div class="work-item-gallery">
+                    <div id="carousel-ipad-magazine" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="1"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="2"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="3"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="4"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="5"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="6"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="7"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="8"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="9"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="10"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="11"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="12"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="13"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="14"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="15"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="16"></li>
+                        <li data-target="#carousel-ipad-magazine" data-slide-to="17"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/YxyqmxR.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/0UujIUN.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/iJrmMGM.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/CtfIm5X.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/AadZotH.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/alUMZpQ.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/dzCBBzd.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Sd6RwpD.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/AjMiBzM.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/EP2Mn7k.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/UZFV27k.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/rBhtK0n.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/ABvPmzq.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/KuEPxPi.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/8LZOH7D.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/ziiKLZY.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/GULdmIO.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/2b41eYS.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
                 </div>
 
-                <div id="first" class="text-left">
-                    <p class="subtitle">4. Learn</p>
-                    <p class="description">We hope you can find the answers that you’re looking for. If not, pick a new search engine and try again!</p>
+                <a class="left carousel-control" href="#carousel-ipad-magazine" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-ipad-magazine" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+
+
+                <div class="work-item-description">
+                    <h1>Ipad Magazine</h1>
+                    <p>Este trabalho foi feito na aula de Interaction Design e o objetivo era a criação de uma publicação interativa para iPad usando a Adobe Publishing Suite.</p>
+                </div> <!-- work-item-description -->
+
+                <div style="clear:both"></div>
+
                 </div>
-                 
-            </div> 
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="traveling-microsite">
+                <div class="work-item-gallery">
+                    <div id="carousel-traveling-microsite" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="1"></li>
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="2"></li>
+                        <li data-target="#carousel-traveling-microsite" data-slide-to="3"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/9pPJmnO.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/FWnJTNP.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-traveling-microsite" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-traveling-microsite" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Exposure </h1>
+                    <p>A proposta do Exposure era ser um trabalho interdisciplinar entre alunos de Computer Science e Interaction Design. Os alunos de Computer Science desenvolveriam um aplicativo de leitura OCR e nossa tarefa era criar a interface, identidade visual, landing page e video de divulgação.</p> <p> Meu papel no grupo foi de Web Designer e foi uma ótima oportunidade para aprender mais sobre css e html, dentre outras tecnologias. A versão final pode ser vista <a href="http://www.exposure-app.com/#home" target="_blank" id="link">aqui</a>.
+ </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
+                </div>
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="the-bakery">
+                <div class="work-item-gallery">
+                    <div id="carousel-the-bakery" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-the-bakery" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-the-bakery" data-slide-to="1"></li>
+                        <li data-target="#carousel-the-bakery" data-slide-to="2"></li>
+                        <li data-target="#carousel-the-bakery" data-slide-to="3"></li>
+                        <li data-target="#carousel-the-bakery" data-slide-to="4"></li>
+                        <li data-target="#carousel-the-bakery" data-slide-to="5"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/o9hQCGT.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/hQrpzkH.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/YxDjTDp.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/RRPqXxQ.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/2z3BTN9.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/zFuMocB.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-the-bakery" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-the-bakery" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Restaurant Menu </h1>
+                    <p>Este trabalho foi desenvolvido na aula de Design for the Web e o objetivo era criar um menu responsivo para um estabelecimento alimentício. O resultado pode ser visto <a href="thebakery/bakery.html" target="_blank" id="link">aqui</a>.
+ </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
+                </div>
+
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="branding-restaurant">
+                <div class="work-item-gallery">
+                    <div id="carousel-branding-restaurant" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="1"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="2"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="3"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="4"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="5"></li>
+                        <li data-target="#carousel-branding-restaurant" data-slide-to="6"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/KMF5b2x.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Pe4W7uq.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/1GbqD39.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Uj2Is0n.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/DITnFjc.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/JyzQmFh.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/shvhaL7.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-branding-restaurant" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-branding-restaurant" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Mini Manual de Marca</h1>
+                    <p>Esse trabalho teve consiste em um restaurante inspirado no filme Pulp Fiction. A partir dessa estética, foi desenvolvida uma marca e suas guidelines, comportadas no mini manual de marca.  </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
+                </div>
+
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="typographic-poster">
+                <div class="work-item-gallery">
+                    <div id="carousel-typographic-poster" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-typographic-poster" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-typographic-poster" data-slide-to="1"></li>
+                        <li data-target="#carousel-typographic-poster" data-slide-to="2"></li>
+                        <li data-target="#carousel-typographic-poster" data-slide-to="3"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/reTDbTu.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/0d6axJk.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/pgZJFI1.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/8V4V03W.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+
+                </div>
+
+                <a class="left carousel-control" href="#carousel-typographic-poster" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-typographic-poster" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Poster Tipográfico</h1>
+                    <p>Feito na aula de Tipografia, o objetivo era criar um poster inspirado em algum tipógrafo renomado. Meu escolhido foi Jonathan Hoefler, da Hoefler & Co. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
+                </div>
+
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="bioshock">
+                <div class="work-item-gallery">
+                    <div id="carousel-bioshock" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-bioshock" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-bioshock" data-slide-to="1"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="images/bioshock1.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="images/bioshock2.jpg" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-bioshock" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-bioshock" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Embalagem de DVD</h1>
+                    <p>Feito na aula de Projeto Visual, o objetivo era escolher um filme ou jogo e criar uma embalagem diferenciada para o mesmo. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
+                </div>
+
+                <div class="tab-pane fade animated fadeInDown work-item-detail" id="layout-printed-book">
+                <div class="work-item-gallery">
+                    <div id="carousel-layout-printed-book" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="1"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="2"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="3"></li>
+                        <li data-target="#carousel-layout-printed-book" data-slide-to="4"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="http://i.imgur.com/l3qidW5.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/6a6BMkQ.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/Bhxbsrr.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+
+                        <div class="item">
+                        <img src="http://i.imgur.com/4wlRWtF.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                        <img src="http://i.imgur.com/adhsXSC.png" alt="">
+                            <div class="carousel-caption">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+
+                <a class="left carousel-control" href="#carousel-layout-printed-book" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-layout-printed-book" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+                </div> <!-- work-item-gallery -->
+                <div class="work-item-description">
+                    <h1>Assassinato na Rua Morgue e Outras Histórias</h1>
+                    <p>Este livro foi feito na disciplina de Projeto Gráfico, orientado pela Prof. Dra. Laís Licheski. O objetivo deste projeto era entender o uso de guidelines e o processo de montagem de livros. </p>
+                </div> <!-- work-item-description -->
+                <div style="clear:both"></div>
+                </div>
+            </div>
+        </div>             
+    </div>
+
+
+</div>
+
+</div>
+
+<div class="container-body-redimensionable" id="about">
+
+    <div class="content-separator"></div>
+
+    <div id="about-container">
+        <div id="container-description">
+        <div id="about-me">
+            <div id="avatar"></div>
+            <h1>Oi, meu nome é Mayra Vendramim!</h1><p>Sou estudante de design gráfico na UTFPR e atualmente estou finalizando um intercâmbio na <a href="http://www.scad.edu/" target="_blank" id="link">SCAD - The University for Creative Careers</a>. Gosto muito da área de design para a web e tive a oportunidade de expandir meu conhecimento neste segmento durante meu intercâmbio. Além disso, tenho interesse por user experience, interfaces e design para aplicativos mobile. </p>
+            <p>Você pode ver meu currículo <a href="resume-internship.pdf" target="_blank" id="link">aqui</a> e entrar em contato comigo por email, no <a href="mailto:may.vendramim@gmail.com" id="link">may.vendramim@gmail.com</a>.</p>
+        </div>
+            </div>
+        <div id="skills"><h4>Skills</h4>
+
+            <h5>Adobe Photoshop</h5>
+
+            <h5>Adobe Illustrator</h5>
+            
+            <h5>Adobe Indesign</h5>
+            
+            <h5>HTML/CSS</h5>
+            
+            
             
         </div>
-    </div>
-
-    <div id="team">
-
-        <p class="title">The Team</p>
-
-        <div id="team-container">
-            <div class="member">
-                <div id="cayetana" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="0.6s"></div>
-                <p class="role">Presentation Designer/Video Producer</p>
-                <p>Would die without the internet.</p>
-            </div>
-            <div class="member">
-                <div id="cris" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="0.8s"></div>
-                <p style="padding-top:5px;" class="role">Programmer</p>
-                <p>Enjoys swimming and Ubuntu.
-                    <br>&nbsp;
-                    <br>&nbsp;</p>
-            </div>
-            <div class="member">
-                <div id="erica" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="1.0s"></div>
-                <p style="padding-top:5px;" class="role">Visual Designer</p>
-                <p>Yogi, cat lady, and animal sweater collector.
-                    <br>&nbsp;</p>
-            </div>
-            <div class="member">
-                <div id="lindsay" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="0.6s"></div>
-                <p class="role">Visual Designer</p>
-                <p>Avid fan of wild colors and anything that involves foliage.</p>
-            </div>
-            <div class="member">
-                <div id="mackenzie" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="0.8s"></div>
-                <p class="role">Presentation Designer</p>
-                <p>Lover of watches, road trips, and chocolate.</p>
-            </div>
-
-            <div class="member">
-                <div id="mayra" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="1.0s"></div>
-                <p class="role">Web Designer</p>
-                <p>Brazilian. Loves video games, cats
-                    <br>and sea food.</p>
-            </div>
-
-            <div class="member">
-                <div id="nicolette" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="0.6s"></div>
-                <p class="role">Project Manager</p>
-                <p>Obsessed with crafting and DIY projects.</p>
-            </div>
-
-            <div class="member">
-                <div id="rebecca" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="0.8s"></div>
-                <p class="role">Visual Designer</p>
-                <p>Obsessed with tea, books, and Netflix.</p>
-            </div>
-
-            <div class="member">
-                <div id="tori" class="member-thumb wow bounceInLeft fadeInDown" data-wow-delay="1.0s"></div>
-                <p class="role">UX Strategist</p>
-                <p>In love with crocheting, crafting, and books.</p>
-            </div>
-
-
-
-        </div>
 
     </div>
 
-    <div id="made">Made with &#10084; in Interaction Design | Graphic Design Program | SUNY New Paltz.
-        <br>Faculty advisors: Amy Papaelias (Graphic Design) and Andy Pletch (Computer Science).</div>
-
-    <script type="text/javascript" src="js/skrollr.min.js"></script>
-    <script type="text/javascript">
-        var windowWidth = $(window).width();
-        if (windowWidth > 767) {
-            var s = skrollr.init();
-        }
-    </script>
-
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
 
 </body>
 

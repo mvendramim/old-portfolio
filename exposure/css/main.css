@@ -1,0 +1,193 @@
+body,
+html {
+    
+    margin: 0;
+    height: 100%;
+    background-color: white;
+    
+}
+p   {
+    font-family: 'AvenirLTStd55Roman', sans-serif;
+    
+}
+
+
+
+#home   {
+    
+    width: 100%;
+    height: 900px;
+    min-height: 600;
+    background-color: #2BBCBA;
+    background-image: url("../img/App_B&W.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    z-index: 100;
+    
+}
+
+#home-container {
+    
+    
+    position: absolute;
+    margin-left: 400px;
+    width: 60%;
+}
+
+#buttons-container  {
+    width: 100%;
+    padding-top: 20%;
+}
+
+#play-video   {
+    
+     width: 250px;
+    height: 60px;
+    background-color: #e43e25;
+    background-image: url("../img/PlayVideo.png");
+    background-position: center;
+    background-size: 230px;
+    background-repeat: no-repeat;
+    display: inline-table;
+    cursor: pointer;
+    float: right;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+#play-video:hover   {
+    
+    background-color: #AD2F1C;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+    
+}
+    
+
+.popup-vimeo    {
+    
+    width: 2%;
+}
+
+.mfp-iframe  {
+    
+    
+}
+
+#download   {
+    
+    width: 250px;
+    height: 60px;
+    background-color: #eeca14;
+    background-image: url("../img/Download.png");
+    background-position: center;
+    background-size: 230px;
+    background-repeat: no-repeat;
+    display: inline-table;
+    cursor: pointer;
+    float: left;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+#download:hover   {
+    
+     background-color: #CCAD11;
+    -o-transition: all 0.25s ease;
+   -ms-transition: all 0.25s ease;
+   -moz-transition: all 0.25s ease;
+   -webkit-transition: all 0.25s ease;
+}
+
+
+#picture    {
+    
+    background-image: url("../img/nexus-5-mockup.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+
+
+#logo-home  {
+
+    background-image: url("../img/logo-home.png");
+    height: 250px;
+    width: 270px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+    
+}
+
+
+#headline   {
+    
+    color: white;
+    width: 80%;
+    font-size: 72px;
+    font-family: 'AvenirLTStd85Heavy';
+    text-align: left;
+    
+}
+
+
+
+
+
+.entypo {
+    font-family:"Entypo";
+    font-size: 60px;
+    line-height: 150px
+}
+
+
+
+
+
+@font-face {
+    font-family: 'AvenirLTStd55Roman';
+    src: url('../fonts/avenirltstd-roman.eot');
+    src: url('../fonts/avenirltstd-roman.eot') format('embedded-opentype'),
+         url('../fonts/avenirltstd-roman.woff') format('woff'),
+         url('../fonts/avenirltstd-roman.ttf') format('truetype'),
+         url('../fonts/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('../fonts/avenirltstd-heavy.eot');
+    src: url('../fonts/avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('../fonts/avenirltstd-heavy.woff') format('woff'),
+         url('../fonts/avenirltstd-heavy.ttf') format('truetype'),
+         url('../fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
+
+@font-face {
+    font-family:'Entypo';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot') format('embedded-opentype'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#Entypo') format('svg');
+
+        
+}
+
+
+    

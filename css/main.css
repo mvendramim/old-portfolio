@@ -1,193 +1,147 @@
+body {
+    background-color: #E6E6FA;
+}
 body,
 html {
-    
     margin: 0;
     height: 100%;
-    background-color: white;
-    
 }
-p   {
-    font-family: 'AvenirLTStd55Roman', sans-serif;
-    
+.container-home {
+    height: 100%;
+    background-color: transparent;
 }
-
-
-
-#home   {
-    
+.container-body {
     width: 100%;
-    height: 900px;
-    min-height: 600;
-    background-color: #2BBCBA;
-    background-image: url("../img/App_B&W.jpg");
-    background-repeat: no-repeat;
-    background-size: 2000px;
-    z-index: 100;
-    
+    height: 100%;
+    background-color: transparent;
+    position: fixed;
 }
-
-#home-container {
-    
-    
-    position: absolute;
-    margin-left: 400px;
-    width: 60%;
+.container-body-hidden {
+    -webkit-animation-name: fadeOut;
+    display: none;
 }
-
-#buttons-container  {
-    width: 100%;
-    padding-top: 20%;
+a {
+    color: #565656;
 }
-
-#play-video   {
-    
-     width: 250px;
-    height: 60px;
-    background-color: #e43e25;
-    background-image: url("../img/PlayVideo.png");
-    background-position: center;
-    background-size: 230px;
-    background-repeat: no-repeat;
-    display: inline-table;
-    cursor: pointer;
-    float: right;
-    -o-transition: all 0.25s ease;
-   -ms-transition: all 0.25s ease;
-   -moz-transition: all 0.25s ease;
-   -webkit-transition: all 0.25s ease;
-}
-
-#play-video:hover   {
-    
-    background-color: #AD2F1C;
-    -o-transition: all 0.25s ease;
-   -ms-transition: all 0.25s ease;
-   -moz-transition: all 0.25s ease;
-   -webkit-transition: all 0.25s ease;
-    
-}
-    
-
-.popup-vimeo    {
-    
-    width: 2%;
-}
-
-.mfp-iframe  {
-    
-    
-}
-
-#download   {
-    
-    width: 250px;
-    height: 60px;
-    background-color: #eeca14;
-    background-image: url("../img/Download.png");
-    background-position: center;
-    background-size: 230px;
-    background-repeat: no-repeat;
-    display: inline-table;
-    cursor: pointer;
-    float: left;
-    -o-transition: all 0.25s ease;
-   -ms-transition: all 0.25s ease;
-   -moz-transition: all 0.25s ease;
-   -webkit-transition: all 0.25s ease;
-}
-
-#download:hover   {
-    
-     background-color: #CCAD11;
-    -o-transition: all 0.25s ease;
-   -ms-transition: all 0.25s ease;
-   -moz-transition: all 0.25s ease;
-   -webkit-transition: all 0.25s ease;
-}
-
-
-#picture    {
-    
-    background-image: url("../img/nexus-5-mockup.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    bottom: 0;
-    right: 30px;
-}
-
-
-
-#logo-home  {
-
-    background-image: url("../img/logo-home.png");
-    height: 250px;
-    width: 270px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 30px;
-    position: relative;
-    top: 20px;
-    
-}
-
-
-#headline   {
-    
-    color: white;
-    width: 80%;
-    font-size: 72px;
-    font-family: 'AvenirLTStd85Heavy';
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #565656;
+    font-weight: lighter;
     text-align: left;
+}
+
+img {
     
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
 }
+#home {} 
 
-
-
-
-
-.entypo {
-    font-family:"Entypo";
-    font-size: 60px;
-    line-height: 150px
+#wrapper-home {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    display: block;
 }
-
-
-
-
-
+.wrapper-division-left {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+.wrapper-division-center {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin-left: 35%;
+}
+.wrapper-division-right {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin-left: 70%;
+}
+.menu-item {
+    width: auto;
+    height: auto;
+    outline: none;
+}
+.menu-item > a {
+    color: #F5F5F5;
+    font-family: 'gotham1', 'Helvetica', 'arial', sans-serif;
+    font-size: 50px;
+    background-color: rgba(99, 42, 184, 0.5);
+}
+.menu-item > a:hover {
+    text-decoration: none;
+    background-color: rgba(99, 42, 184, 0.8);
+    -o-transition: 2s;
+    -ms-transition: .2;
+    -moz-transition: .2;
+    -webkit-transition: 2s;
+}
+a:active,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+#item-left {
+    float: right;
+}
+#item-right {
+    float: left;
+    margin-right: 20%;
+}
+#arrow {
+    width: 50%;
+    height: 80%;
+    background-image: url("../images/arrow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+#scroll {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 200px;
+    font-family: 'gotham1', 'Helvetica', 'arial', sans-serif;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+#logo-home {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 @font-face {
-    font-family: 'AvenirLTStd55Roman';
-    src: url('../fonts/avenirltstd-roman.eot');
-    src: url('../fonts/avenirltstd-roman.eot') format('embedded-opentype'),
-         url('../fonts/avenirltstd-roman.woff') format('woff'),
-         url('../fonts/avenirltstd-roman.ttf') format('truetype'),
-         url('../fonts/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
+    font-family: 'gotham1';
+    src: url('../fonts/gotham1.eot');
+    src: local('☺︎'), url("../fonts/gotham1.woff") format("woff"), url("../fonts/gotham1.otf") format("opentype"), url("../fonts/gotham1.svg") format("svg");
 }
-
-@font-face {
-    font-family: 'AvenirLTStd85Heavy';
-    src: url('../fonts/avenirltstd-heavy.eot');
-    src: url('../fonts/avenirltstd-heavy.eot') format('embedded-opentype'),
-         url('../fonts/avenirltstd-heavy.woff') format('woff'),
-         url('../fonts/avenirltstd-heavy.ttf') format('truetype'),
-         url('../fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
-}
-
-@font-face {
-    font-family:'Entypo';
-    src: url('../fonts/entypo.eot');
-    src: url('../fonts/entypo.eot') format('embedded-opentype'),
-         url('../fonts/entypo.woff') format('woff'),
-         url('../fonts/entypo.ttf') format('truetype'),
-         url('../fonts/entypo.svg#Entypo') format('svg');
-
-        
-}
-
-
-    

@@ -1,0 +1,308 @@
+#work {
+    position: relative;
+}
+#work-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    position: relative;
+    background-color: #F5F5F5;
+    height: 100%;
+    min-height: 800px;
+}
+
+
+
+.tab-pane    {
+
+    max-height:1000px; ;
+}
+
+
+.content-separator {
+  height: 70px;
+  position: relative;
+  width: 100%;
+}
+
+#filter-menu-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.filter-button {
+  display: block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  width: 120px;
+  background-image: url(../images/tag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-family: 'gotham1', 'Helvetica', 'arial', sans-serif;
+  color: #F5F5F5;
+  margin-right: 30px;
+  padding-right: 10px;
+}
+
+.filter-button:link {
+  color: #F5F5F5;
+}
+
+.filter-button:visited {
+  color: #F5F5F5;
+}
+
+.filter-button:hover {
+  background-image: url("../images/tag2.png");
+  color: #F5F5F5;
+  text-decoration: none;
+  -o-transition: 1s;
+  -ms-transition: .1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.filter-button:active {
+  color: #F5F5F5;
+}
+
+.work-items-container {
+  position: relative;
+    max-width: 1000px;
+    min-height: 400px;
+}
+
+.work-item {
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+    color: #F5F5F5;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-table;
+    font-family: 'gotham1';
+    font-size: 24px;
+    text-decoration: none;
+    
+    
+}
+.work-item:hover {
+    
+    color: #F5F5F5;
+    text-decoration: none;
+
+}
+
+.container-body-redimensionable {
+  margin-top: -70px;
+  padding-top: 70px;
+  min-height: 100%;
+  position: relative;
+}
+
+.work-item-detail {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.work-item-detail.active {
+  display: inline-table;
+}
+
+.work-item-gallery {
+  width: 60%;
+  float: left;
+}
+
+.work-item-description h1 {
+  font-family: 'gotham1', 'Helvetica', 'arial', sans-serif;
+  color: #632ab8;
+}
+
+.work-item-description {
+  position: relative;
+  float: right;
+  width: 35%;
+}
+
+.work-item-description p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  color: #565656;
+}
+
+
+.overlay    {
+
+    background-color: rgba(99,42,184,0.5);
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+
+.overlay:hover    {
+
+    background-color: rgba(99,42,184,0.5);
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+    opacity: 100;
+}
+
+.work-item.pet-cupid {
+  background-image: url("http://i.imgur.com/JtRh9HI.png");
+background-size: 300px;
+    background-position: left top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+.work-item.pet-cupid:hover {
+    background-size: 350px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+
+.work-item.ipad-magazine {
+  background-image: url("http://i.imgur.com/ABvPmzq.jpg");
+background-size: 300px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+.work-item.ipad-magazine:hover {
+    background-size: 350px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+
+}
+
+.work-item.exposure {
+  background-image: url("http://i.imgur.com/9pPJmnO.png");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+
+.work-item.exposure:hover {
+    background-size: 450px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+    
+}
+
+.work-item.the-bakery {
+  background-image: url("http://i.imgur.com/o9hQCGT.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+
+.work-item.the-bakery:hover {
+    background-size: 450px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+    
+}
+.work-item.branding-restaurant {
+  background-image: url("http://i.imgur.com/Pe4W7uq.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+  
+}
+
+.work-item.branding-restaurant:hover {
+    background-size: 450px;
+}
+.work-item.typographic-poster {
+  background-image: url("http://i.imgur.com/pgZJFI1.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+  
+}
+
+.work-item.typographic-poster:hover {
+    background-size: 450px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+.work-item.bioshock {
+  background-image: url("../images/bioshock1.jpg");
+    background-size: 400px;
+    background-position: center top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+  
+}
+
+.work-item.bioshock:hover {
+    background-size: 450px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+
+.work-item.layout-printed-book {
+    background-image: url("http://i.imgur.com/l3qidW5.png");
+    background-size: 400px;
+    background-position: right top;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+  
+}
+
+.work-item.layout-printed-book:hover {
+    background-size: 450px;
+    -o-transition: all 0.60s ease;
+   -ms-transition: all 0.60s ease;
+   -moz-transition: all 0.60s ease;
+   -webkit-transition: all 0.60s ease;
+}
+}
