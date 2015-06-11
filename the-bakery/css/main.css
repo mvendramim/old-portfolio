@@ -1,0 +1,361 @@
+body    {
+    
+    background-image:url("../images/bg.jpg");
+    background-attachment:fixed;
+    background-repeat: repeat;
+    background-size: auto;   
+    
+}
+
+body,
+html    {
+    
+    margin: 0;
+    height: 100%;
+    
+}
+
+a   {
+
+    text-decoration: none;
+    
+}
+
+#wrapper    {
+    
+    max-width: 100%;
+}
+
+#breakfast  {
+    
+    width: 100%;
+    max-width: 1800px;
+    height: 40%;
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/breakfast.jpg");
+    background-size: 2000px;
+    background-position: center;
+    margin-top: 0px;
+    padding-top: 300px;
+    
+}
+
+#up {
+    
+    position: relative;
+    top:-100px;
+}
+
+.title  {
+    
+    background-color: rgba(92, 92, 62,0.5);
+    color: #f6f6e2;
+    text-align: right;
+    padding-right: 10px;
+    z-index: 2;
+    position: inherit;
+    top: 70%;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    
+}
+
+#breakfast-body  {
+    
+    width: 100%;
+    height: 700px;
+    max-width: 1800px;
+    
+    
+    
+}
+    
+#container    {
+    
+    margin-left: 300px;
+    padding-right: 0px;
+}
+
+
+.price-breakfast  {
+    
+    background-color: #6f6e50;
+    width: 50%;
+    padding-bottom: 20px;
+    float: left;
+    
+}
+
+#breads  {
+    
+    background-color: #6f6e50;
+    background-image: url("../images/bred.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40%;
+    float: left;
+    padding-top: 300px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.price-breads  {
+    
+    background-color: #6f6e50;
+    width: 60%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#coffee  {
+    
+    background-color: #6f6e50;
+    background-image: url("../images/coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40%;
+    float: left;
+    padding-top: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+#red    {background-color: #de2456}
+
+
+
+.subtitle {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: #f6f6e2;
+    background-color: rgba(92, 92, 62,0.5);
+    position: relative;
+    top: 165px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.special    {
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+
+}
+
+h2 {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: #f6f6e2;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p   {
+    
+    color: #f6f6e2;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+table   {
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+th  {
+    
+    font-family: 'Playfair Display SC', serif;
+    font-size: 14px;
+    text-align: left;
+    
+    
+}
+
+table, td, th
+{
+    border:1px solid transparent;
+    color: #f6f6e2;
+}
+
+#right  {text-align: right}
+
+#center  {text-align: center}
+
+#bagel-header   {
+    
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bagel.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:-30px
+    
+}
+
+#espresso-header   {
+    
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/espresso.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:-30px
+    
+}
+
+
+
+#egg-header   {
+    
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/egg-sand.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:-30px
+    
+}
+
+#croissant-header   {
+    
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/croissant.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:-30px
+    
+}
+#tea-header   {
+    
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/tea.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:-30px
+    
+}
+
+td    {
+    
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    
+}
+
+#description    {
+    
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+     price-breakfast  {
+         width: 100%;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 0px
+     }
+    
+    .price-breads   {width: 100%;}
+        
+}
+
+@media only screen and (max-width: 740px) {
+     #container    {
+    
+    margin-left: 0px;
+}
+    .price-breakfast  {
+        width: 100%;
+     margin-left: 0px;
+     margin-right: 0px;
+    margin-top: 0px
+    }
+    
+    #up {
+    
+    position: relative;
+    top:0px;
+}
+    .price-breads   {width: 100%;}
+    
+}
+
+ 
+@media only screen and (max-width: 900px) {
+    
+    .price-breakfast  {
+        width: 100%;
+     margin-left: 0px;
+     margin-right: 0px;
+    margin-top: 40px;
+    }
+    #up {
+    
+    position: relative;
+    top:0px;
+}
+    
+}
+
+
+    @media only screen and (min-width: 900px) {
+    .price-breakfast  {
+        width: 45%;
+     margin-left: 20px;
+    margin-top: 40px;
+}
+        
+        #up {
+    
+    position: relative;
+    top:-100px;
+}
+
+    
+}
+
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
